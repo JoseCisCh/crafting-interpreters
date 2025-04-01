@@ -1,0 +1,24 @@
+
+# Ignore Maven build artifacts
+target/
+target/*
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Ignore Maven Wrapper files
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore Eclipse-specific files (if using Eclipse)
+.project
+.classpath
+.settings/
+
+# Ignore IntelliJ IDEA files (if using IntelliJ)
+.idea/
+*.iml

@@ -45,6 +45,7 @@ class Scanner {
             scanToken();
         }
         tokens.add(new Token(TokenType.EOF, "", null, line));
+        return tokens;
     }
 
     private boolean isAtEnd() {

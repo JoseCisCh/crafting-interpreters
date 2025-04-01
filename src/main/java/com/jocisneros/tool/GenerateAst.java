@@ -31,7 +31,7 @@ public class GenerateAst {
         writer.println();
         writer.println("import java.util.List;");
         writer.println();
-        writer.println("abstract class" + baseName + " {");
+        writer.println("abstract class " + baseName + " {");
 
         for(String type: types) {
             String className = type.split(":")[0].trim();
